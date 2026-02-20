@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analysis Result</title>
+</head>
+
+<body>
+
+    <h2>Analysis Report</h2>
+
+    <img src="{{ image_path }}" width="300"><br><br>
+
+    <p><strong>Prediction:</strong> {{ label }}</p>
+    <p><strong>Confidence:</strong> {{ confidence }}%</p>
+    <p><strong>Risk Level:</strong> {{ risk }}</p>
+
+    <a href="/">Analyze Another Image</a>
+</body>
+
+</html>
